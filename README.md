@@ -6,18 +6,16 @@ Esta herramienta genera un reporte forense en PDF a partir de la base de datos `
 - Extracción y decodificación de mensajes de Telegram
 - Agrupación de conversaciones por contacto y fecha
 - Análisis de patrones de actividad (horarios de uso)
-- Generación de reportes en PDF con formato forense
-- Compatible con Windows, macOS y Linux
 
 ## Requisitos del sistema
-- Python 3.7 o superior
+- Python 3.11.2 (No probado con otras versiones)
 - Dependencias especificadas en `requirements.txt`
 
 ## Instalación usando entorno virtual
 
 1. **Clonar el repositorio:**
 ```bash
-git clone https://github.com/tu-usuario/telegram-forensic.git
+git clone https://github.com/adriangomezmorales/telegommor
 cd telegram-forensic
 ```
 2. **Crear entorno virtual:**
