@@ -314,13 +314,9 @@ def generate_telegram_report(db_path, pdf_path):
                         pdf.add_date_header(date_data['date'])
                         
                         for message in date_data['messages']:
-                            # CORRECCIÓN: Invertir la dirección de los mensajes
-                            direction = "Desde" if message['is_outgoing'] else "Para"
+                            direction = "Para" if message['is_outgoing'] else "Desde"
                             
-                            # Acortar mensajes largos
                             message_text = message['text']
-                            if len(message_text) > 1000:
-                                message_text = message_text[:997] + "..."
                             
                             pdf.add_message(
                                 direction=direction,
