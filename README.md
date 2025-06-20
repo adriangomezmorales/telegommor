@@ -16,13 +16,13 @@ Esta herramienta genera un reporte forense en PDF a partir de la base de datos `
 1. **Clonar el repositorio:**
 ```bash
 git clone https://github.com/adriangomezmorales/telegommor
-cd telegram-forensic
+cd telegommor
 ```
 2. **Crear entorno virtual:**
 
 ```bash
 
-python -m venv venv
+python3 -m venv .
 ```
 3. **Activar el entorno virtual:**
 
