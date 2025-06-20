@@ -28,7 +28,7 @@ python -m venv venv
 
 ```bash
 
-source venv/bin/activate
+source bin/activate
 ```
 4. **Instalar dependencias:**
 
